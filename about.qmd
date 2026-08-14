@@ -1,0 +1,69 @@
+---
+pagetitle: "About"
+page-layout: full
+toc: false
+---
+
+**dsa-explain** is a collection of short, visual, interactive lessons
+on data structures and algorithms. Each module aims to build intuition
+first through animation and direct manipulation before it asks a
+reader to look at code.
+
+The site is currently a scaffold: the navigation, layout, and design
+system are in place, and each module page is a placeholder waiting for
+content. See the [module grid](index.qmd) for the current roadmap.
+
+**dsa-explain** project is supported by UBC OER grant 
+
+
+## Project Team
+
+**Project PIs**
+
+- Elham E Khoda
+- Ilya Musabirov
+- Cinda Hareen
+- Firas Moosvi
+
+**Developers**
+
+- Sarisha Das
+- Rebecca Sokol-Snyder
+- Minh Anh Nguyen
+
+
+
+## A note on inspiration and attribution
+
+The idea of a free, visual, self-contained explainer for a technical
+topic owes a real debt to [MLU-Explain](https://mlu-explain.github.io/),
+Amazon's collection of machine-learning explainers ([source on
+GitHub](https://github.com/aws-samples/aws-mlu-explain)). We admire
+that project's format: short, focused, one-idea-per-page lessons built
+around an interactive visual.
+
+This site's visual structure of navy-ink text and borders, flat/
+sharp-edged cards, and a "highlighter" mark behind key text and
+buttons was deliberately designed to feel close to MLU-Explain's.
+The accent color, though, is a deliberate departure: a cool cobalt
+blue rather than their warm coral/orange, chosen specifically so the
+two sites read as clearly distinct at a glance. No CSS, font files,
+illustrations, or written content from MLU-Explain were copied into
+this project: every rule in
+[`theme.scss`](https://github.com/your-username/dsa-explain/blob/main/theme.scss)
+was written from scratch, and the typefaces here (Archivo and
+JetBrains Mono) are open, freely-licensed Google Fonts chosen to
+evoke the mood of Amazon's proprietary Ember typeface without using
+it. MLU-Explain's own codebase remains under its own license — see
+the original, linked above, for the real thing.
+
+Unless noted otherwise on an individual page, written content on this
+site is shared under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/),
+and the site's own source code (Quarto config, theme, and scaffolding)
+is available in the [GitHub repository](https://github.com/dsa-explain/dsa-explain.github.io) under the MIT license.
+
+## Contributing
+
+New modules, corrections, and design feedback are welcome. Open an
+issue or a pull request on the [GitHub
+repository](https://github.com/your-username/dsa-explain).

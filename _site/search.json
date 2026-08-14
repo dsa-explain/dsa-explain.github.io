@@ -1,0 +1,212 @@
+[
+  {
+    "objectID": "modules/00-arrays-strings/index.html",
+    "href": "modules/00-arrays-strings/index.html",
+    "title": "Arrays & Strings",
+    "section": "",
+    "text": "← All modules\n\n\n\nHow contiguous memory shapes the operations we take for granted.\n\nThis module hasn’t been written yet — you’re looking at a placeholder page in the dsa-explain scaffold. When it’s ready, this space will hold a short interactive visual and a walkthrough of the underlying idea, in the same spirit as the rest of the site.\nWant to write it? See the contributing notes."
+  },
+  {
+    "objectID": "modules/00-arrays-strings/index.html#arrays-strings",
+    "href": "modules/00-arrays-strings/index.html#arrays-strings",
+    "title": "Arrays & Strings",
+    "section": "",
+    "text": "How contiguous memory shapes the operations we take for granted.\n\nThis module hasn’t been written yet — you’re looking at a placeholder page in the dsa-explain scaffold. When it’s ready, this space will hold a short interactive visual and a walkthrough of the underlying idea, in the same spirit as the rest of the site.\nWant to write it? See the contributing notes."
+  },
+  {
+    "objectID": "modules/03-hash-tables/index.html",
+    "href": "modules/03-hash-tables/index.html",
+    "title": "Hash Tables",
+    "section": "",
+    "text": "← All modules\n\n\n\nNear-constant-time lookup, and what happens when collisions hit.\n\nThis module hasn’t been written yet — you’re looking at a placeholder page in the dsa-explain scaffold. When it’s ready, this space will hold a short interactive visual and a walkthrough of the underlying idea, in the same spirit as the rest of the site.\nWant to write it? See the contributing notes."
+  },
+  {
+    "objectID": "modules/03-hash-tables/index.html#hash-tables",
+    "href": "modules/03-hash-tables/index.html#hash-tables",
+    "title": "Hash Tables",
+    "section": "",
+    "text": "Near-constant-time lookup, and what happens when collisions hit.\n\nThis module hasn’t been written yet — you’re looking at a placeholder page in the dsa-explain scaffold. When it’s ready, this space will hold a short interactive visual and a walkthrough of the underlying idea, in the same spirit as the rest of the site.\nWant to write it? See the contributing notes."
+  },
+  {
+    "objectID": "modules/08-searching-complexity/index.html",
+    "href": "modules/08-searching-complexity/index.html",
+    "title": "Searching & Big-O",
+    "section": "",
+    "text": "← All modules\n\n\n\nWhat “fast” means, and how to reason about it before you run the code.\n\nThis module hasn’t been written yet — you’re looking at a placeholder page in the dsa-explain scaffold. When it’s ready, this space will hold a short interactive visual and a walkthrough of the underlying idea, in the same spirit as the rest of the site.\nWant to write it? See the contributing notes."
+  },
+  {
+    "objectID": "modules/08-searching-complexity/index.html#searching-big-o",
+    "href": "modules/08-searching-complexity/index.html#searching-big-o",
+    "title": "Searching & Big-O",
+    "section": "",
+    "text": "What “fast” means, and how to reason about it before you run the code.\n\nThis module hasn’t been written yet — you’re looking at a placeholder page in the dsa-explain scaffold. When it’s ready, this space will hold a short interactive visual and a walkthrough of the underlying idea, in the same spirit as the rest of the site.\nWant to write it? See the contributing notes."
+  },
+  {
+    "objectID": "modules/07-sorting/index.html",
+    "href": "modules/07-sorting/index.html",
+    "title": "Sorting Algorithms",
+    "section": "",
+    "text": "← All modules\n\n\n\nComparison sorts, side by side, in time and in memory.\n\nThis module hasn’t been written yet — you’re looking at a placeholder page in the dsa-explain scaffold. When it’s ready, this space will hold a short interactive visual and a walkthrough of the underlying idea, in the same spirit as the rest of the site.\nWant to write it? See the contributing notes."
+  },
+  {
+    "objectID": "modules/07-sorting/index.html#sorting-algorithms",
+    "href": "modules/07-sorting/index.html#sorting-algorithms",
+    "title": "Sorting Algorithms",
+    "section": "",
+    "text": "Comparison sorts, side by side, in time and in memory.\n\nThis module hasn’t been written yet — you’re looking at a placeholder page in the dsa-explain scaffold. When it’s ready, this space will hold a short interactive visual and a walkthrough of the underlying idea, in the same spirit as the rest of the site.\nWant to write it? See the contributing notes."
+  },
+  {
+    "objectID": "modules/02-stacks-queues/index.html",
+    "href": "modules/02-stacks-queues/index.html",
+    "title": "Stacks & Queues",
+    "section": "",
+    "text": "← All modules\n\n\n\nTwo disciplines for ordering what happens next.\n\nThis module hasn’t been written yet — you’re looking at a placeholder page in the dsa-explain scaffold. When it’s ready, this space will hold a short interactive visual and a walkthrough of the underlying idea, in the same spirit as the rest of the site.\nWant to write it? See the contributing notes."
+  },
+  {
+    "objectID": "modules/02-stacks-queues/index.html#stacks-queues",
+    "href": "modules/02-stacks-queues/index.html#stacks-queues",
+    "title": "Stacks & Queues",
+    "section": "",
+    "text": "Two disciplines for ordering what happens next.\n\nThis module hasn’t been written yet — you’re looking at a placeholder page in the dsa-explain scaffold. When it’s ready, this space will hold a short interactive visual and a walkthrough of the underlying idea, in the same spirit as the rest of the site.\nWant to write it? See the contributing notes."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "dsa-explain",
+    "section": "",
+    "text": "dsa-explain is a collection of short, visual, interactive lessons on data structures and algorithms. Each module aims to build intuition first through animation and direct manipulation before it asks a reader to look at code.\nThe site is currently a scaffold: the navigation, layout, and design system are in place, and each module page is a placeholder waiting for content. See the module grid for the current roadmap.\ndsa-explain project is supported by UBC OER grant"
+  },
+  {
+    "objectID": "about.html#what-this-is",
+    "href": "about.html#what-this-is",
+    "title": "About",
+    "section": "",
+    "text": "dsa-explain is a collection of short, visual, interactive lessons on data structures and algorithms. Each module aims to build intuition first — through animation and direct manipulation — before it asks a reader to look at code.\nThe site is currently a scaffold: the navigation, layout, and design system are in place, and each module page is a placeholder waiting for content. See the module grid for the current roadmap."
+  },
+  {
+    "objectID": "about.html#how-its-built",
+    "href": "about.html#how-its-built",
+    "title": "dsa-explain",
+    "section": "How it’s built",
+    "text": "How it’s built"
+  },
+  {
+    "objectID": "about.html#a-note-on-inspiration-and-attribution",
+    "href": "about.html#a-note-on-inspiration-and-attribution",
+    "title": "dsa-explain",
+    "section": "A note on inspiration and attribution",
+    "text": "A note on inspiration and attribution\nThe idea of a free, visual, self-contained explainer for a technical topic owes a real debt to MLU-Explain, Amazon’s collection of machine-learning explainers (source on GitHub). We admire that project’s format: short, focused, one-idea-per-page lessons built around an interactive visual.\nThis site’s visual structure of navy-ink text and borders, flat/ sharp-edged cards, and a “highlighter” mark behind key text and buttons was deliberately designed to feel close to MLU-Explain’s. The accent color, though, is a deliberate departure: a cool cobalt blue rather than their warm coral/orange, chosen specifically so the two sites read as clearly distinct at a glance. No CSS, font files, illustrations, or written content from MLU-Explain were copied into this project: every rule in theme.scss was written from scratch, and the typefaces here (Archivo and JetBrains Mono) are open, freely-licensed Google Fonts chosen to evoke the mood of Amazon’s proprietary Ember typeface without using it. MLU-Explain’s own codebase remains under its own license — see the original, linked above, for the real thing.\nUnless noted otherwise on an individual page, written content on this site is shared under CC BY-SA 4.0, and the site’s own source code (Quarto config, theme, and scaffolding) is available in the GitHub repository under the MIT license."
+  },
+  {
+    "objectID": "about.html#contributing",
+    "href": "about.html#contributing",
+    "title": "dsa-explain",
+    "section": "Contributing",
+    "text": "Contributing\nNew modules, corrections, and design feedback are welcome. Open an issue or a pull request on the GitHub repository."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "dsa-explain",
+    "section": "",
+    "text": "DATA STRUCTURES & ALGORITHMS, VISUALIZED\n\n\ndsa-explain\n\n\ndsa-explain is a growing collection of short, visual, interactive lessons on data structures and algorithms — built for anyone who wants the intuition behind the code, not just the code itself.\n\n\nBrowse modules ↓\n\n\n\n\n 7  3  9       \n\n\n\n\nExplore the modules…\n\n\n\n\nMODULE 00\n\n\nArrays & Strings\n\n\nHow contiguous memory shapes the operations we take for granted.\n\nPlanned \n\n\nMODULE 01\n\n\nLinked Lists\n\n\nTrading random access for cheap insertion, one node at a time.\n\nPlanned \n\n\nMODULE 02\n\n\nStacks & Queues\n\n\nTwo disciplines for ordering what happens next.\n\nPlanned \n\n\nMODULE 03\n\n\nHash Tables\n\n\nNear-constant-time lookup, and what happens when collisions hit.\n\nPlanned \n\n\nMODULE 04\n\n\nTrees\n\n\nHierarchies, traversals, and why balance matters.\n\nPlanned \n\n\nMODULE 05\n\n\nHeaps & Priority Queues\n\n\nAlways knowing the smallest (or largest) thing in the room.\n\nPlanned \n\n\nMODULE 06\n\n\nGraphs\n\n\nModeling connections, and the traversals that make sense of them.\n\nPlanned \n\n\nMODULE 07\n\n\nSorting Algorithms\n\n\nComparison sorts, side by side, in time and in memory.\n\nPlanned \n\n\nMODULE 08\n\n\nSearching & Big-O\n\n\nWhat “fast” means, and how to reason about it before you run the code.\n\nPlanned \n\n\nMODULE 09\n\n\nDynamic Programming\n\n\nTurning overlapping subproblems into answers you only compute once.\n\nPlanned"
+  },
+  {
+    "objectID": "modules/09-dynamic-programming/index.html",
+    "href": "modules/09-dynamic-programming/index.html",
+    "title": "Dynamic Programming",
+    "section": "",
+    "text": "← All modules\n\n\n\nTurning overlapping subproblems into answers you only compute once.\n\nThis module hasn’t been written yet — you’re looking at a placeholder page in the dsa-explain scaffold. When it’s ready, this space will hold a short interactive visual and a walkthrough of the underlying idea, in the same spirit as the rest of the site.\nWant to write it? See the contributing notes."
+  },
+  {
+    "objectID": "modules/09-dynamic-programming/index.html#dynamic-programming",
+    "href": "modules/09-dynamic-programming/index.html#dynamic-programming",
+    "title": "Dynamic Programming",
+    "section": "",
+    "text": "Turning overlapping subproblems into answers you only compute once.\n\nThis module hasn’t been written yet — you’re looking at a placeholder page in the dsa-explain scaffold. When it’s ready, this space will hold a short interactive visual and a walkthrough of the underlying idea, in the same spirit as the rest of the site.\nWant to write it? See the contributing notes."
+  },
+  {
+    "objectID": "modules/04-trees/index.html",
+    "href": "modules/04-trees/index.html",
+    "title": "Trees",
+    "section": "",
+    "text": "← All modules\n\n\n\nHierarchies, traversals, and why balance matters.\n\nThis module hasn’t been written yet — you’re looking at a placeholder page in the dsa-explain scaffold. When it’s ready, this space will hold a short interactive visual and a walkthrough of the underlying idea, in the same spirit as the rest of the site.\nWant to write it? See the contributing notes."
+  },
+  {
+    "objectID": "modules/04-trees/index.html#trees",
+    "href": "modules/04-trees/index.html#trees",
+    "title": "Trees",
+    "section": "",
+    "text": "Hierarchies, traversals, and why balance matters.\n\nThis module hasn’t been written yet — you’re looking at a placeholder page in the dsa-explain scaffold. When it’s ready, this space will hold a short interactive visual and a walkthrough of the underlying idea, in the same spirit as the rest of the site.\nWant to write it? See the contributing notes."
+  },
+  {
+    "objectID": "modules/06-graphs/index.html",
+    "href": "modules/06-graphs/index.html",
+    "title": "Graphs",
+    "section": "",
+    "text": "← All modules\n\n\n\nModeling connections, and the traversals that make sense of them.\n\nThis module hasn’t been written yet — you’re looking at a placeholder page in the dsa-explain scaffold. When it’s ready, this space will hold a short interactive visual and a walkthrough of the underlying idea, in the same spirit as the rest of the site.\nWant to write it? See the contributing notes."
+  },
+  {
+    "objectID": "modules/06-graphs/index.html#graphs",
+    "href": "modules/06-graphs/index.html#graphs",
+    "title": "Graphs",
+    "section": "",
+    "text": "Modeling connections, and the traversals that make sense of them.\n\nThis module hasn’t been written yet — you’re looking at a placeholder page in the dsa-explain scaffold. When it’s ready, this space will hold a short interactive visual and a walkthrough of the underlying idea, in the same spirit as the rest of the site.\nWant to write it? See the contributing notes."
+  },
+  {
+    "objectID": "modules/05-heaps/index.html",
+    "href": "modules/05-heaps/index.html",
+    "title": "Heaps & Priority Queues",
+    "section": "",
+    "text": "← All modules\n\n\n\nAlways knowing the smallest (or largest) thing in the room.\n\nThis module hasn’t been written yet — you’re looking at a placeholder page in the dsa-explain scaffold. When it’s ready, this space will hold a short interactive visual and a walkthrough of the underlying idea, in the same spirit as the rest of the site.\nWant to write it? See the contributing notes."
+  },
+  {
+    "objectID": "modules/05-heaps/index.html#heaps-priority-queues",
+    "href": "modules/05-heaps/index.html#heaps-priority-queues",
+    "title": "Heaps & Priority Queues",
+    "section": "",
+    "text": "Always knowing the smallest (or largest) thing in the room.\n\nThis module hasn’t been written yet — you’re looking at a placeholder page in the dsa-explain scaffold. When it’s ready, this space will hold a short interactive visual and a walkthrough of the underlying idea, in the same spirit as the rest of the site.\nWant to write it? See the contributing notes."
+  },
+  {
+    "objectID": "modules/01-linked-lists/index.html",
+    "href": "modules/01-linked-lists/index.html",
+    "title": "Linked Lists",
+    "section": "",
+    "text": "← All modules\n\n\n\nTrading random access for cheap insertion, one node at a time.\n\nThis module hasn’t been written yet — you’re looking at a placeholder page in the dsa-explain scaffold. When it’s ready, this space will hold a short interactive visual and a walkthrough of the underlying idea, in the same spirit as the rest of the site.\nWant to write it? See the contributing notes."
+  },
+  {
+    "objectID": "modules/01-linked-lists/index.html#linked-lists",
+    "href": "modules/01-linked-lists/index.html#linked-lists",
+    "title": "Linked Lists",
+    "section": "",
+    "text": "Trading random access for cheap insertion, one node at a time.\n\nThis module hasn’t been written yet — you’re looking at a placeholder page in the dsa-explain scaffold. When it’s ready, this space will hold a short interactive visual and a walkthrough of the underlying idea, in the same spirit as the rest of the site.\nWant to write it? See the contributing notes."
+  },
+  {
+    "objectID": "about.html#ubc-oer",
+    "href": "about.html#ubc-oer",
+    "title": "dsa-explain",
+    "section": "UBC OER",
+    "text": "UBC OER"
+  },
+  {
+    "objectID": "about.html#ubc",
+    "href": "about.html#ubc",
+    "title": "dsa-explain",
+    "section": "UBC",
+    "text": "UBC\n\nfirst.\nsecond.\nthird."
+  },
+  {
+    "objectID": "about.html#fun",
+    "href": "about.html#fun",
+    "title": "dsa-explain",
+    "section": "Fun",
+    "text": "Fun\n\nfirst.\nsecond.\nthird."
+  },
+  {
+    "objectID": "about.html#project-team",
+    "href": "about.html#project-team",
+    "title": "dsa-explain",
+    "section": "Project Team",
+    "text": "Project Team\nProject PIs\n\nElham E Khoda\nIlya Musabirov\nCinda Hareen\nFiras Moosvi\n\nDevelopers\n\nSarisha Das\nRebecca Sokol-Snyder\nMinh Anh Nguyen"
+  }
+]

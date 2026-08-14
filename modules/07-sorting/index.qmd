@@ -1,0 +1,20 @@
+---
+title: "Sorting Algorithms"
+description: "Comparison sorts, side by side, in time and in memory."
+toc: false
+---
+
+::: {.module-stub}
+<a class="back-link" href="../../index.html">&larr; All modules</a>
+
+## Sorting Algorithms
+
+<p class="lede">Comparison sorts, side by side, in time and in memory.</p>
+
+This module hasn't been written yet — you're looking at a
+placeholder page in the **dsa-explain** scaffold. When it's ready,
+this space will hold a short interactive visual and a walkthrough of
+the underlying idea, in the same spirit as the rest of the site.
+
+Want to write it? See the [contributing notes](/about.html#contributing).
+:::

@@ -1,0 +1,46 @@
+project:
+  type: website
+  # GitHub Pages (Actions workflow) publishes the rendered _site/ folder,
+  # so it is safe to leave it out of version control. See README.md.
+  output-dir: _site
+
+website:
+  title: "dsa-explain"
+  description: "Visual, interactive explainers for data structures and algorithms."
+  site-url: "https://github.com/dsa-explain/dsa-explain.github.io"
+  favicon: favicon.svg
+
+  navbar:
+    background: "#FAFAF7"
+    pinned: true
+    left:
+      - href: index.qmd
+        text: "Modules"
+      - href: about.qmd
+        text: "About"
+      - href: about.qmd
+        text: "Contribute"
+    right:
+      - icon: github
+        href: https://github.com/dsa-explain/dsa-explain.github.io
+        aria-label: GitHub repository
+
+  page-footer:
+    left: "© 2026 the dsa-explain team · content shared under CC BY-SA 4.0"
+    background: "#FAFAF7"
+
+  page-navigation: false
+  back-to-top-navigation: false
+
+format:
+  html:
+    theme:
+      - cosmo
+      - theme.scss
+    css: styles.css
+    toc: false
+    number-sections: false
+    grid:
+      body-width: 1100px
+      margin-width: 200px
+    highlight-style: github

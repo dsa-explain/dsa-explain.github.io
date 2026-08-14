@@ -1,0 +1,379 @@
+/*
+  dsa-explain — theme.scss
+  Original design system for this project, written independently for
+  this codebase. Its overall mood (warm gradient wash on white, navy
+  ink text, a coral accent, flat/sharp-edged UI, a "highlighter" mark
+  behind key text) is deliberately close to mlu-explain.github.io,
+  per request — but no CSS, font files, or artwork from that project's
+  stylesheet were copied; every rule below is written from scratch,
+  and typefaces are open, freely-licensed Google Fonts rather than
+  Amazon's proprietary Ember family.
+*/
+
+/*-- scss:defaults --*/
+
+// Typefaces (loaded in styles.css so we control font-display + fallbacks)
+// Archivo stands in for a heavy geometric display face (its Black/900
+// weight plays a similar role to Amazon Ember Display Heavy) without
+// using Amazon's proprietary font.
+$font-family-sans-serif: "Archivo", -apple-system, "Segoe UI", sans-serif;
+$font-family-monospace: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+$headings-font-family: "Archivo", -apple-system, "Segoe UI", sans-serif;
+
+// Palette
+//   Paper    #FFFFFF  — clean white page background
+//   Ink      #232F3E  — deep navy, primary text (same family of navy
+//                        as the reference site's ink color)
+//   Cobalt   #2456D6  — cool blue accent / highlighter mark — chosen
+//                        specifically to sit far from MLU-Explain's
+//                        warm coral/orange accent on the color wheel
+//   Graphite #5B6270  — secondary text
+//   Hairline #232F3E  — thin flat borders (no soft grays — the
+//                        reference site outlines things in ink, not gray)
+$body-bg: #FFFFFF;
+$body-color: #232F3E;
+$link-color: #232F3E;
+$primary: #2456D6;
+$secondary: #5B6270;
+
+$headings-color: #232F3E;
+$headings-font-weight: 800;
+
+$border-color: #232F3E;
+$border-radius: 0; // flat, sharp corners throughout
+
+$navbar-bg: #FFFFFF;
+$navbar-fg: #232F3E;
+$navbar-hl: #2456D6;
+
+$footer-bg: #FFFFFF;
+$footer-fg: #5B6270;
+
+$font-size-base: 1.05rem;
+$line-height-base: 1.55;
+
+/*-- scss:rules --*/
+
+:root {
+  --paper: #FFFFFF;
+  --ink: #232F3E;
+  --cobalt: #2456D6;
+  --cobalt-soft: rgba(36, 86, 214, 0.14);
+  --cobalt-wash: rgba(108, 145, 235, 0.28);
+  --graphite: #5B6270;
+}
+
+// A cool blue gradient wash bleeding in from the top corners — the
+// same warm-wash-over-white idea as the reference site, redrawn with
+// our own gradient stops, our own angles, and blue instead of coral
+// so the page reads distinctly from it at a glance.
+body {
+  background-image:
+    linear-gradient(200deg, var(--cobalt-wash), rgba(255, 255, 255, 0) 38%),
+    linear-gradient(-20deg, rgba(36, 86, 214, 0.16), rgba(255, 255, 255, 0) 30%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.navbar {
+  border-bottom: 2px solid var(--ink);
+  box-shadow: none;
+  background: var(--paper) !important;
+  opacity: 1;
+}
+
+.navbar-title {
+  font-family: $headings-font-family;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+.navbar-title::after {
+  content: "";
+}
+
+// ---- Hero -----------------------------------------------------------
+// Two-column layout (headline copy left, a small original graphic
+// right) — the same broad shape as the reference site's intro
+// section, rebuilt with our own grid and our own artwork.
+
+.hero {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 1rem 0 3rem;
+  min-height: 46vh;
+}
+
+.hero-copy {
+  max-width: 34rem;
+}
+
+.hero .eyebrow {
+  display: inline-flex;
+  align-items: center;
+  font-family: $font-family-monospace;
+  font-weight: 500;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin-bottom: 1.1rem;
+  padding: 0.15rem 0;
+  position: relative;
+}
+
+// A "highlighter marker" bar sitting just behind the eyebrow text —
+// our own take on the reference site's highlighted-strip device.
+.hero .eyebrow span {
+  position: relative;
+  z-index: 1;
+}
+
+.hero .eyebrow span::before {
+  content: "";
+  position: absolute;
+  left: -0.3rem;
+  right: -0.3rem;
+  bottom: 0.05rem;
+  top: 0.15rem;
+  background: var(--cobalt-soft);
+  z-index: -1;
+}
+
+.hero h1 {
+  font-size: clamp(2.6rem, 5vw, 4rem);
+  line-height: 1.02;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  margin-bottom: 1.2rem;
+}
+
+.hero h1 .accent {
+  color: var(--cobalt);
+}
+
+.hero p.lede {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--ink);
+  max-width: 34rem;
+  // background: var(--cobalt-soft);
+  // padding: 0.85rem 1rem;
+  // display: inline-block;
+}
+
+.hero-art {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-art svg {
+  width: 100%;
+  height: auto;
+  max-width: 320px;
+}
+
+// ---- Section label ----------------------------------------------------
+
+.section-segue {
+  font-family: $headings-font-family;
+  font-weight: 800;
+  font-size: 1.4rem;
+  margin: 3rem 0 1.5rem;
+}
+
+// ---- Module grid ------------------------------------------------------
+
+.module-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem 3rem;
+  margin: 0 0 4rem;
+}
+
+@media (max-width: 700px) {
+  .module-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.module-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--ink);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.module-card:hover,
+.module-card:focus-visible {
+  transform: translateY(-3px);
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.module-card:focus-visible {
+  outline: 2px solid var(--cobalt);
+  outline-offset: 3px;
+}
+
+// Flat-color "cover" tile standing in for a thumbnail image, bordered
+// in ink like the reference site's bordered article thumbnails —
+// built from CSS only, no external image assets.
+.module-cover {
+  aspect-ratio: 16 / 10;
+  border: 1.5px solid var(--ink);
+  display: flex;
+  align-items: flex-end;
+  padding: 0.75rem;
+  margin-bottom: 0.9rem;
+  transition: box-shadow 0.15s ease;
+}
+
+.module-card:hover .module-cover,
+.module-card:focus-visible .module-cover {
+  box-shadow: 6px 6px 0 var(--ink);
+}
+
+.module-index {
+  font-family: $font-family-monospace;
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: #fff;
+  background: rgba(35, 47, 62, 0.55);
+  padding: 0.1rem 0.4rem;
+}
+
+.module-card h3 {
+  font-family: $headings-font-family;
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin: 0 0 0.35rem;
+}
+
+.module-card p {
+  color: var(--ink);
+  font-size: 0.94rem;
+  line-height: 1.5;
+  margin: 0 0 0.6rem;
+  flex-grow: 1;
+}
+
+.module-status {
+  align-self: flex-start;
+  font-family: $font-family-monospace;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 0.15rem 0.55rem;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+}
+
+.module-status.status-planned {
+  color: var(--cobalt);
+  border-color: var(--cobalt);
+}
+
+.module-status.status-live {
+  color: #fff;
+  background: var(--cobalt);
+  border-color: var(--cobalt);
+}
+
+// Ten tinted cover tiles, one per module, so each card reads distinctly
+// even without photographic thumbnails.
+.module-cover.tint-0 { background: hsl(12, 78%, 66%); }
+.module-cover.tint-1 { background: hsl(36, 78%, 62%); }
+.module-cover.tint-2 { background: hsl(60, 70%, 62%); }
+.module-cover.tint-3 { background: hsl(84, 55%, 62%); }
+.module-cover.tint-4 { background: hsl(150, 45%, 62%); }
+.module-cover.tint-5 { background: hsl(190, 55%, 62%); }
+.module-cover.tint-6 { background: hsl(212, 65%, 66%); }
+.module-cover.tint-7 { background: hsl(252, 45%, 70%); }
+.module-cover.tint-8 { background: hsl(300, 40%, 72%); }
+.module-cover.tint-9 { background: hsl(340, 65%, 70%); }
+
+// ---- Highlighter button ------------------------------------------------
+// Rebuilds the reference site's outlined button-with-a-marker-swipe
+// idea, entirely with our own markup/CSS.
+
+.btn-highlight {
+  position: relative;
+  display: inline-block;
+  font-family: $font-family-sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--ink);
+  border: 1.5px solid var(--ink);
+  padding: 0.5rem 1.1rem;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.btn-highlight::before {
+  content: "";
+  position: absolute;
+  left: -0.3rem;
+  right: -0.3rem;
+  top: 0.15rem;
+  bottom: 0.15rem;
+  background: var(--cobalt-soft);
+  z-index: -1;
+  transition: background 0.15s ease;
+}
+
+.btn-highlight:hover {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.btn-highlight:hover::before {
+  background: var(--cobalt);
+}
+
+// ---- Module stub page ---------------------------------------------------
+
+.module-stub {
+  max-width: 38rem;
+  padding: 2rem 0 4rem;
+}
+
+.module-stub .back-link {
+  font-family: $font-family-monospace;
+  font-size: 0.85rem;
+  color: var(--graphite);
+  text-decoration: none;
+}
+
+.module-stub .back-link:hover {
+  color: var(--cobalt);
+}
+
+// ---- Footer -------------------------------------------------------------
+
+.page-footer {
+  border-top: 2px solid var(--ink);
+  font-size: 0.85rem;
+}
+
+// ---- Misc -----------------------------------------------------------
+
+a {
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1.5px;
+}
+
+a:not(.module-card):not(.btn-highlight):hover {
+  color: var(--cobalt);
+}
+
+::selection {
+  background: var(--cobalt);
+  color: #fff;
+}

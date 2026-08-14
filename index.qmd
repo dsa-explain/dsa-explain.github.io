@@ -1,0 +1,124 @@
+---
+# title: ""
+page-layout: full
+toc: false
+description: "Visual, interactive explainers for data structures and algorithms."
+pagetitle: "dsa-explain"    # controls only the browser tab
+title-block-style: none     # suppresses the visible title/description block
+---
+
+::: {.hero}
+::: {.hero-copy}
+::: {.eyebrow}
+<span>DATA STRUCTURES &amp; ALGORITHMS, VISUALIZED</span>
+:::
+# dsa-<span class="accent">explain</span>
+
+<!-- # See the <span class="accent">algorithm</span> think. -->
+
+
+<p class="lede">
+dsa-explain is a growing collection of short, visual, interactive
+lessons on data structures and algorithms — built for anyone who
+wants the intuition behind the code, not just the code itself.
+</p>
+
+<br/>
+
+<a class="btn-highlight" href="#modules-section">Browse modules ↓</a>
+:::
+
+::: {.hero-art}
+<svg viewBox="0 0 320 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A small linked list of three nodes, drawn as boxes connected by arrows">
+  <rect x="16" y="40" width="72" height="56" fill="none" stroke="#232F3E" stroke-width="3"/>
+  <text x="52" y="74" font-family="JetBrains Mono, monospace" font-size="22" fill="#232F3E" text-anchor="middle">7</text>
+  <rect x="124" y="110" width="72" height="56" fill="none" stroke="#232F3E" stroke-width="3"/>
+  <text x="160" y="144" font-family="JetBrains Mono, monospace" font-size="22" fill="#232F3E" text-anchor="middle">3</text>
+  <rect x="232" y="40" width="72" height="56" fill="#2456D6" stroke="#232F3E" stroke-width="3"/>
+  <text x="268" y="74" font-family="JetBrains Mono, monospace" font-size="22" fill="#FFFFFF" text-anchor="middle">9</text>
+  <path d="M88 68 C104 68 108 138 124 138" fill="none" stroke="#232F3E" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M196 138 C212 138 216 68 232 68" fill="none" stroke="#232F3E" stroke-width="3" marker-end="url(#arrow)"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#232F3E"/>
+    </marker>
+  </defs>
+</svg>
+:::
+:::
+
+<p class="section-segue" id="modules-section">Explore the modules...</p>
+
+::: {.module-grid}
+
+<a class="module-card" href="modules/00-arrays-strings/index.html">
+<div class="module-cover tint-0"><span class="module-index">MODULE&nbsp;00</span></div>
+<h3>Arrays & Strings</h3>
+<p>How contiguous memory shapes the operations we take for granted.</p>
+<span class="module-status status-planned">Planned</span>
+</a>
+
+<a class="module-card" href="modules/01-linked-lists/index.html">
+<div class="module-cover tint-1"><span class="module-index">MODULE&nbsp;01</span></div>
+<h3>Linked Lists</h3>
+<p>Trading random access for cheap insertion, one node at a time.</p>
+<span class="module-status status-planned">Planned</span>
+</a>
+
+<a class="module-card" href="modules/02-stacks-queues/index.html">
+<div class="module-cover tint-2"><span class="module-index">MODULE&nbsp;02</span></div>
+<h3>Stacks & Queues</h3>
+<p>Two disciplines for ordering what happens next.</p>
+<span class="module-status status-planned">Planned</span>
+</a>
+
+<a class="module-card" href="modules/03-hash-tables/index.html">
+<div class="module-cover tint-3"><span class="module-index">MODULE&nbsp;03</span></div>
+<h3>Hash Tables</h3>
+<p>Near-constant-time lookup, and what happens when collisions hit.</p>
+<span class="module-status status-planned">Planned</span>
+</a>
+
+<a class="module-card" href="modules/04-trees/index.html">
+<div class="module-cover tint-4"><span class="module-index">MODULE&nbsp;04</span></div>
+<h3>Trees</h3>
+<p>Hierarchies, traversals, and why balance matters.</p>
+<span class="module-status status-planned">Planned</span>
+</a>
+
+<a class="module-card" href="modules/05-heaps/index.html">
+<div class="module-cover tint-5"><span class="module-index">MODULE&nbsp;05</span></div>
+<h3>Heaps & Priority Queues</h3>
+<p>Always knowing the smallest (or largest) thing in the room.</p>
+<span class="module-status status-planned">Planned</span>
+</a>
+
+<a class="module-card" href="modules/06-graphs/index.html">
+<div class="module-cover tint-6"><span class="module-index">MODULE&nbsp;06</span></div>
+<h3>Graphs</h3>
+<p>Modeling connections, and the traversals that make sense of them.</p>
+<span class="module-status status-planned">Planned</span>
+</a>
+
+<a class="module-card" href="modules/07-sorting/index.html">
+<div class="module-cover tint-7"><span class="module-index">MODULE&nbsp;07</span></div>
+<h3>Sorting Algorithms</h3>
+<p>Comparison sorts, side by side, in time and in memory.</p>
+<span class="module-status status-planned">Planned</span>
+</a>
+
+<a class="module-card" href="modules/08-searching-complexity/index.html">
+<div class="module-cover tint-8"><span class="module-index">MODULE&nbsp;08</span></div>
+<h3>Searching & Big-O</h3>
+<p>What "fast" means, and how to reason about it before you run the code.</p>
+<span class="module-status status-planned">Planned</span>
+</a>
+
+<a class="module-card" href="modules/09-dynamic-programming/index.html">
+<div class="module-cover tint-9"><span class="module-index">MODULE&nbsp;09</span></div>
+<h3>Dynamic Programming</h3>
+<p>Turning overlapping subproblems into answers you only compute once.</p>
+<span class="module-status status-planned">Planned</span>
+</a>
+
+:::
