@@ -22,7 +22,7 @@ website:
         text: "Contribute"
     right:
       - icon: github
-        href: https://github.com/dsa-explain/dsa-explain.github.io
+        href: https://dsa-explain.github.io/
         aria-label: GitHub repository
 
   page-footer:
